@@ -30,4 +30,4 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGO_FRANCIS_PASSWORD:
      vault: MONGO_FRANCIS_PASSWORD
-  revision : 1
+  revision : 2
