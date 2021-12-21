@@ -1,6 +1,6 @@
 users:
   - name: francis
-    password: $MONGO_francis_PASSWORD
+    password: $MONGO_FRANCIS_PASSWORD
 
 databases:
   - name: user_management
