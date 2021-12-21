@@ -1,0 +1,15 @@
+users:
+  - name: francis
+    password: $MONGO_francis_PASSWORD
+
+databases:
+  - name: user_management
+  - name: notification
+
+acl:
+  - database: notification  
+    user: francis
+    access: dbOwner
+  - database: user_management
+    user: francis
+    access: dbOwner
