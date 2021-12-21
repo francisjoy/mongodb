@@ -25,4 +25,7 @@ volumes:
   mode: ReadWriteOnce
   
 properties:
+  DB_USER_ADMIN: admin
+  DB_USER_ADMIN_PASSWORD:
+     vault: DB_USER_ADMIN_PASSWORD
   revision : 1
