@@ -3,13 +3,9 @@ users:
     password: $MONGO_FRANCIS_PASSWORD
 
 databases:
-  - name: user_management
-  - name: notification
+  - name: transit
 
 acl:
-  - database: notification  
-    user: francis
-    access: dbOwner
-  - database: user_management
+  - database: transit  
     user: francis
     access: dbOwner
