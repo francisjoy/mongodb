@@ -30,4 +30,4 @@ properties:
      vault: DB_USER_ADMIN_PASSWORD
   MONGODB_PASSWORD:
      vault: MONGODB_PASSWORD
-  revision : 2
+  revision : 3
