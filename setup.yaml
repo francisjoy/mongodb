@@ -1,11 +1,11 @@
 users:
-  - name: francis
-    password: $MONGO_FRANCIS_PASSWORD
+  - name: php
+    password: $MONGODB_PASSWORD
 
 databases:
-  - name: transit
+  - name: phpdatabase
 
 acl:
-  - database: transit  
-    user: francis
+  - database: phpdatabase  
+    user: php
     access: dbOwner
