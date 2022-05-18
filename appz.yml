@@ -25,12 +25,12 @@ volumes:
   mode: ReadWriteOnce
   
 properties:
-  REPLICATION: 0
+  #REPLICATION: 0
   DB_USER_ADMIN: admin
-  DB_USER_ADMIN_PASSWORD: 1qwerty
-     #vault: DB_USER_ADMIN_PASSWORD
+  DB_USER_ADMIN_PASSWORD: 
+     vault: DB_USER_ADMIN_PASSWORD
   MONGODB_PASSWORD:
      vault: MONGODB_PASSWORD
-  AUTH_KEY:
-     vault: AUTH_KEY
-  revision : 5
+  #AUTH_KEY:
+   #  vault: AUTH_KEY
+  #revision : 5
