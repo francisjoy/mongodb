@@ -16,12 +16,18 @@ deploy:
   replicas: 3
   port:
   - 27017
+  - 9216
 
 volumes:
 - claim: mongo-data
   mount: /appz/data
   name: mongo-data
   size: 5Gi
+  mode: ReadWriteOnce
+- claim: mongo-keys
+  mount: /appz/keys
+  name: mongo-keys
+  size: 1Gi
   mode: ReadWriteOnce
   
 properties:
