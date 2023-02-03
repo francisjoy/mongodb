@@ -33,4 +33,4 @@ properties:
      vault: MONGODB_PASSWORD
   AUTH_KEY:
      vault: AUTH_KEY
-  revision : 5
+  revision : 6
