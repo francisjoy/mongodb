@@ -53,5 +53,5 @@ properties:
      vault: BLOB_ACCOUNT_KEY
   STORAGE_LOCATION: blob
   MONGO_BACKUP_DAYS: 7
-  MONGO_BACKUP_TIME: 06
+  MONGO_BACKUP_TIME: 07
   revision : 8
