@@ -54,4 +54,4 @@ properties:
   STORAGE_LOCATION: blob
   MONGO_BACKUP_DAYS: 7
   MONGO_BACKUP_TIME: 10
-  revision : 8
+  revision : 9
