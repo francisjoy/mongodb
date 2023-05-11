@@ -1,11 +1,11 @@
 users:
-  - name: php
+  - name: hero
     password: $MONGODB_PASSWORD
 
 databases:
-  - name: phpdatabase
+  - name: superhero
 
 acl:
-  - database: phpdatabase  
-    user: php
+  - database: superhero
+    user: hero
     access: dbOwner
